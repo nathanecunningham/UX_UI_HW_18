@@ -1,0 +1,129 @@
+ *{
+     margin-left: 25px;
+     margin-right: 25px;
+ }  
+.flexContainer1{
+    display: flex;
+}
+.approach1{
+    background-color: blueviolet;
+    flex: 3;  
+}
+.child1{
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+}
+.photo1{    
+    background-color: blue;
+    flex: 1;
+}
+
+
+.approach2{
+    background-color: blueviolet;
+    flex: 3;  
+}
+.child2{
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+}
+.photo2{    
+    background-color: blue;
+    flex: 1;
+}
+
+
+.approach3{
+    background-color: blueviolet;
+    flex: 3;  
+}
+.child3{
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+}
+.photo3{    
+    background-color: blue;
+    flex: 1;
+}
+
+
+.approach4{
+    background-color: blueviolet;
+    flex: 3;  
+}
+.child4{
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+}
+.photo4{    
+    background-color: blue;
+    flex: 1;
+}
+
+
+
+
+.flexContainer2{
+    display: flex;
+    
+}
+img{
+    object-fit: cover;
+}
+
+.shoeString{
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+    background-image:url("../images/shoestringmap.png");
+    flex: auto; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+}
+
+  
+
+.middleMan{
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+    flex: auto;
+    background-image: url("../images/middleman1.png"), url(../images/middleman2.png);
+    background-position: left, right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+
+.pRH{
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+    height: 250px;
+   
+    flex: auto;
+    background-image: url("../images/prh1.png"), url("../images/prh2.png");
+    background-position: left, right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
+    
+}
+p{
+    background: rgba(161, 168, 162, 0.1);
+}
